@@ -1,0 +1,9 @@
+.DS_Store
+.ssh
+.bash_history
+.zsh_history
+.gitconfig
+.npmrc
+.sharedrc
+old-npm-global-packages
+dotfiles.bak
