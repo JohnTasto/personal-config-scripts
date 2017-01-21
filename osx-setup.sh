@@ -9,6 +9,11 @@
 read -s -p "Enter password: " PASSWORD
 
 
+# Increase maximum number of open files
+
+echo $PASSWORD | sudo -S launchctl limit maxfiles unlimited
+
+
 echo "Installing command line tools..."
 xcode-select --install
 
