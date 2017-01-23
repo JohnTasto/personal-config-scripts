@@ -48,6 +48,12 @@ brew install dos2unix
 echo "Installing Docker for Mac..."
 brew cask install docker
 
+echo "Installing Virtualbox..."
+brew cask install virtualbox
+
+echo "Installing Vagrant..."
+brew cask install vagrant
+
 echo "Installing iTerm2..."
 brew cask install iterm2
 
