@@ -36,6 +36,9 @@ brew install wget
 echo "Installing git..."
 brew install git
 
+echo "Installing ruby..."
+brew install ruby
+
 echo "Installing dos2unix..."
 brew install dos2unix
 
