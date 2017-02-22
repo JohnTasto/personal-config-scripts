@@ -39,6 +39,9 @@ brew install git
 echo "Installing ruby..."
 brew install ruby
 
+echo "Installing elixir..."
+brew install elixir
+
 echo "Installing dos2unix..."
 brew install dos2unix
 
