@@ -95,6 +95,9 @@ echo "Installing Node (through NVM)..."
 brew install nvm
 nvm install node
 
+echo "Installing Yarn..."
+brew install yarn
+
 echo "Installing npm packages..."
 npm i -g \
   eslint \
