@@ -1,0 +1,9 @@
+For Windows, either:
+
+HKLM\SYSTEM\CurrentControlSet\Control\FileSystem LongPathsEnabled (Type: REG_DWORD) = 1
+Local Computer Policy -> Computer Configuration -> Administrative Templates -> System -> Filesystem -> Enable Win32 long paths = Enabled
+
+
+For git (as admin),
+
+git config --system core.longpaths true

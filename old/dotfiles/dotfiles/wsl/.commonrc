@@ -1,0 +1,30 @@
+#  WSL common settings
+
+# editor
+export EDITOR=code
+export VISUAL="$EDITOR"
+
+# X11 (official support coming soon?)
+# export DISPLAY=:0
+# export LIBGL_ALWAYS_INDIRECT=1
+
+# Override high DPI scaling in Windows
+# Set to Scaling performed by: Application
+export GDK_SCALE=2
+
+# NVM
+# export NVM_DIR="$HOME/.nvm"
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
+
+# Docker for Windows (no longer needed in WSL2?)
+# export DOCKER_HOST=tcp://localhost:2375
+# export DOCKER_TLS_VERIFY=1
+
+# ssh-ident - /usr/bin/ssh is diverted to /usr/bin/ssh.binary
+export BINARY_SSH="/usr/bin/ssh.original"
+
+
+if [ -e /home/john/.nix-profile/etc/profile.d/nix.sh ]; then
+  . /home/john/.nix-profile/etc/profile.d/nix.sh;
+fi

@@ -1,0 +1,181 @@
+Windows Registry Editor Version 5.00
+
+; Original:
+;
+;   [HKEY_CLASSES_ROOT\.ext]
+;   @=-
+;   "Content Type"="text/plain"
+;   "PerceivedType"="text"
+;
+;   [HKEY_CLASSES_ROOT\.ext\shellex]
+;
+;   [HKEY_CLASSES_ROOT\.ext\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+;   @="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+; Slim & Key Preserving:
+;
+;   [HKEY_CLASSES_ROOT\.ext]
+;   "PerceivedType"="text"
+;
+;   [HKEY_CLASSES_ROOT\.ext\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+;   @="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; Haskell
+
+[HKEY_CLASSES_ROOT\.hs]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.hs\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.lhs]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.lhs\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; Haskell project config
+
+[HKEY_CLASSES_ROOT\.cabal]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.cabal\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; JavaScript & TypeScript
+
+[HKEY_CLASSES_ROOT\.js]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.js\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.jsx]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.jsx\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.ts]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.ts\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.tsx]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.tsx\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; JavaScript project config
+
+[HKEY_CLASSES_ROOT\.babelrc]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.babelrc\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.eslintrc]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.eslintrc\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.eslintignore]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.eslintignore\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.npmrc]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.npmrc\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.prettierrc]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.prettierrc\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; CSS
+
+[HKEY_CLASSES_ROOT\.css]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.css\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.scss]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.scss\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.sass]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.sass\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.less]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.less\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; Markdown
+
+[HKEY_CLASSES_ROOT\.md]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.md\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; PHP
+
+[HKEY_CLASSES_ROOT\.php]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.php\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; Data
+
+[HKEY_CLASSES_ROOT\.json]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.json\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.yml]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.yml\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.yaml]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.yaml\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; General project config
+
+[HKEY_CLASSES_ROOT\.editorconfig]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.editorconfig\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.gitattributes]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.gitattributes\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.gitignore]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.gitignore\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+[HKEY_CLASSES_ROOT\.gitkeep]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.gitkeep\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"
+
+
+; Logfiles
+
+[HKEY_CLASSES_ROOT\.log]
+"PerceivedType"="text"
+[HKEY_CLASSES_ROOT\.log\shellex\{8895b1c6-b41f-4c1c-a562-0d564250836f}]
+@="{1531d583-8375-4d3f-b5fb-d23bbd169f22}"

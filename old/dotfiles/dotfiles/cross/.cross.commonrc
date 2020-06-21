@@ -1,0 +1,33 @@
+#  cross platform common settings
+
+alias l="ls -AF"
+alias la="ls -aF"
+alias lf="ls -A"
+alias laf="ls -a"
+
+alias ll="ls -AFl"
+alias lla="ls -aFl"
+alias llf="ls -Al"
+alias llaf="ls -al"
+
+alias lll="ls -AFLl"
+alias llla="ls -aFLl"
+alias lllf="ls -ALl"
+alias lllaf="ls -aLl"
+
+alias cd..="cd .."
+alias ..="cd .."
+alias cd~="cd ~"
+alias ~="cd ~"
+alias cd-="cd -"
+
+# # Safe file operations
+# alias mv="mv -i"
+# alias cp="cp -i"
+# alias rm="rm -i"        # takes way too long
+
+alias mkdirp="mkdir -p"
+
+alias rmrf="rm -rf"
+
+export PUSHD_SILENT

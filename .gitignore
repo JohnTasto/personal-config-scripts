@@ -6,4 +6,7 @@
 .npmrc
 .sharedrc
 old-npm-global-packages
-dotfiles.bak
+*.bak
+test.sh
+.docker
+old/misc

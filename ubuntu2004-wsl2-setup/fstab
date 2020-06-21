@@ -1,0 +1,7 @@
+LABEL=cloudimg-rootfs   /        ext4   defaults        0 0
+C:\134 /c drvfs noatime,uid=1000,gid=1000 0 0
+# D:\134 /d drvfs noatime,metadata,uid=1000,gid=1000,umask=022,fmask=111 0 0
+# E:\134 /e drvfs noatime,metadata,uid=1000,gid=1000,umask=022,fmask=111 0 0
+
+# options should be 'rw,dirsync,noatime,aname=drvfs,path=C:\,uid=1000,gid=1000,symlinkroot=/,mmap,access=client,msize=65536,trans=fd,rfd=8,wfd=8'
+#        but end up 'rw,dirsync,noatime,aname=drvfs;path=C:\;uid=1000;gid=1000;symlinkroot=/,mmap,access=client,msize=65536,trans=fd,rfd=3,wfd=3'

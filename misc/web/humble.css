@@ -1,0 +1,174 @@
+/* Humble New Tab for Chrome */
+/* Backup CSS */
+
+/* Generated */
+
+#main a { font-family: "Sans-serif"; }
+#main a { font-size: 1.4em; }
+#main a { color: #676767; }
+body { background-color: #1b1b1b; }
+#main a:hover { background-color: #d9d9d9; }
+#main a:hover { color: #000000; }
+#main a:hover { box-shadow: 0 0 0px #808080; }
+body { background-image: url(); }
+body { background-image: url(); }
+body { background-position: left top; }
+body { background-repeat: repeat; }
+body { background-size: auto; }
+#main a:hover { box-shadow: 0 0 0px #808080; }
+#main a { border-radius: 0.2em; }
+#main a { -webkit-transition-duration: 0s; }
+#main a { line-height: 1.574; padding-left: 0.658em; padding-right: 0.658em; }
+#main { width: 80%; }
+#main { left: 0%; }
+#main { margin-top: 0.395%; }
+.wrap { -webkit-transition-duration: 0s; }
+#options_button { opacity: 0; }
+
+
+/* Custom */
+
+/* main headings */
+#main .column > ul > li > a {
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 1.5em;
+}
+
+/* open main folder contents */
+.column > ul > li > div {
+  margin-top: .75em;
+}
+
+/* open sub folder contents */
+ul > li > div {
+  margin: .25em 0 .25em;
+}
+
+/* folder expansion arrows */
+.folder .icon {
+  filter: invert(100%) brightness(60%);
+}
+
+/* illegible favicons */
+.icon[src*="ae.com"],
+.icon[src*="assortedbitsofwisdom.com"],
+.icon[src*="aurchitect.com"],
+.icon[src*="brilliant.org"],
+.icon[src*="ceretropic.com"],
+.icon[src*="circleci.com"],
+.icon[src*="codecademy.com"],
+.icon[src*="codepen.io"],
+.icon[src*="codesandbox.io"],
+.icon[src*="dnsleaktest.com"],
+.icon[src*="dreamhost.com"],
+.icon[src*="flatcam.org"],
+.icon[src*="github.com"],
+.icon[src*="gnu.org"],
+.icon[src*="hackoregon.org"],
+.icon[src*="haveibeenpwned.com"],
+.icon[src*="hbonow.com"],
+.icon[src*="hub.docker"],
+.icon[src*="izotope.com"],
+.icon[src*="lawdepot.com"],
+.icon[src*="ipleak.net"],
+.icon[src*="learnhowtoprogram.com"],
+.icon[src*="magix.com"],
+.icon[src*="picsum.photos"],
+.icon[src*="ramdajs.com"],
+.icon[src*="rei.com"],
+.icon[src*="savido.net"],
+.icon[src*="sononym.net"],
+.icon[src*="speedtest.net"],
+.icon[src*="spideroak.com"],
+.icon[src*="splice.com"],
+.icon[src*="symbolab.com"],
+.icon[src*="tenonedesign.com"],
+.icon[src*="unix.stackexchange.com"],
+.icon[src*="vultr.com"],
+.icon[src*="winder.github.io"],
+.icon[src*="zeit.co"] {
+  filter: invert(100%) hue-rotate(180deg);
+}
+
+/* options window */
+#options {
+  background: black;
+  border: none;
+}
+
+/* options close button */
+#options #options_close_button {
+  color: #999;
+}
+
+/* options current pane */
+#options .section.current {
+  background: #444;
+  color: #ccc;
+}
+
+/* options revert icon */
+#options .section.current .revert {
+  filter: invert(100%);
+}
+
+/* options input elements */
+#options .section.current input,
+#options .section.current select,
+#options .section.current textarea {
+  background: #333;
+  color: #ccc;
+  border: 2px solid #333;
+}
+
+#options .section.current textarea {
+  outline: none;
+  width: 50em;
+  resize: none;
+}
+
+#options .section.current textarea#options_css {
+  height: 30em;
+}
+
+/* options tab */
+#options_nav {
+  background: #333;
+  color: #999;
+  border: none;
+}
+
+/* options tab inactive */
+#options_nav a {
+  border: none;
+  outline: none;
+}
+
+/* options tab hover */
+#options_nav a:hover {
+  background: #444;
+  border: none;
+  outline: none;
+}
+
+/* options tab active */
+#options_nav a.current {
+  background: #444;
+  color: #ccc;
+  border: none;
+}
+
+body::-webkit-scrollbar,
+#options .section.current textarea::-webkit-scrollbar {
+  width: 1em;
+}
+
+body::-webkit-scrollbar-track,
+#options .section.current textarea::-webkit-scrollbar-track {
+}
+
+body::-webkit-scrollbar-thumb,
+#options .section.current textarea::-webkit-scrollbar-thumb {
+  background-color: #444;
+}

@@ -1,5 +1,6 @@
 #!/bin/bash
 
+set -e
 
 # TODO:
 # install Atom packages and link settings
@@ -42,8 +43,14 @@ brew install ruby
 echo "Installing elixir..."
 brew install elixir
 
+echo "Installing AWS tools..."
+brew install awscli  # amazon-ecs-cli
+
 echo "Installing dos2unix..."
 brew install dos2unix
+
+echo "Installing tree..."
+brew install tree
 
 
 # Homebrew GUI applications
@@ -56,6 +63,7 @@ brew cask install virtualbox
 
 echo "Installing Vagrant..."
 brew cask install vagrant
+vagrant plugin install vagrant-vbguest
 
 echo "Installing iTerm2..."
 brew cask install iterm2
@@ -68,6 +76,15 @@ brew cask install visual-studio-code
 
 echo "Installing Slack..."
 brew cask install slack
+
+echo "Installing BeardedSpice..."
+brew cask install beardedspice
+
+echo "Installing BetterTouchTool..."
+brew cask install bettertouchtool
+
+echo "Installing MacTeX..."
+brew cask install mactex
 
 
 # Python
@@ -89,6 +106,13 @@ echo "Installing Python packages..."
 pip install csvkit
 
 
+echo "Installing Ansible..."
+conda create --name ansible python=2.7
+source activate ansible
+pip install ansible boto boto3 awscli
+source deactivate
+
+
 # Node
 
 echo "Installing Node (through NVM)..."
@@ -106,6 +130,11 @@ npm i -g \
   nowrm \
   typings
 
+
+# Misc
+
+echo "Installing Travis..."
+gem install travis
 
 
 # Mongo
