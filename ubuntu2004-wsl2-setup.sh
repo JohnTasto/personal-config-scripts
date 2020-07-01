@@ -17,7 +17,7 @@ umask 022
 
 source util/term-colors.sh
 
-if ((${EUID:-0} || "$(id -u)")); then
+if (( ${EUID:-0} || "$(id -u)" )); then
   >&2 printf "${red}This script must be run as root.${normal}\n"
   exit 1
 fi
@@ -70,7 +70,7 @@ stack upgrade --binary-only
 
 printf "${green}Installing Node...${normal}\n"
 sudo -u $user bash -c "$(curl -fsS https://raw.githubusercontent.com/nvm-sh/nvm/v0.35.3/install.sh)"
-NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${home}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "$home/.nvm" || printf %s "$XDG_CONFIG_HOME/nvm")"
 sudo -u $user bash -c "[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" && nvm install --lts --latest-npm node"
 
 printf "${green}Installing Node tools (yarn and ts-node)...${normal}\n"
@@ -93,9 +93,9 @@ printf "${green}Installing chezmoi...${normal}\n"
 sudo -u $user sh -c "$(curl -fsSL https://git.io/chezmoi)"
 mv ./bin "$home/bin"
 sudo -u $user mkdir -p "$home/.config/zsh/completions" "$home/.config/bash/completions"
-"${home}/bin/chezmoi" completion zsh --output "$home/.config/zsh/completions/chezmoi.zsh"
-"${home}/bin/chezmoi" completion bash --output "$home/.config/bash/completions/chezmoi.bash"
-sudo -u $user "${home}/bin/chezmoi" init https://github.com/JohnTasto/dotfiles.git
+"$home/bin/chezmoi" completion zsh --output "$home/.config/zsh/completions/chezmoi.zsh"
+"$home/bin/chezmoi" completion bash --output "$home/.config/bash/completions/chezmoi.bash"
+sudo -u $user "$home/bin/chezmoi" init https://github.com/JohnTasto/dotfiles.git
 pushd "$home/.local/share/chezmoi"
 git remote set-url origin git@github.com:JohnTasto/dotfiles.git
 popd

@@ -17,8 +17,8 @@ umask 022
 
 source ../util/term-colors.sh
 
-if ((${EUID:-0} || "$(id -u)")); then
-  printf "${red}This script must be run as root.${normal}\n" 1>&2
+if (( ${EUID:-0} || "$(id -u)" )); then
+  >&2 printf "${red}This script must be run as root.${normal}\n"
   exit 1
 fi
 
